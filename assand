@@ -1,33 +1,43 @@
 #include <bits/stdc++.h>
 
+int m, k, o;
 std::vector <int> x, y; 
 std::string s;
 std::cin >> s;
-m = s.find 
+std::cin >> m >> k;
+for (int i = 0; i < m; i++) {
+    std::cin >> o;
+}
+
+for (int it = 0; it < s.size(); it++) {
+
 x = {0, 1, 2, 3, 4, 5 ,6 ,7}
 y = {0, 1, 2, 3, 4, 5, 6, 7}
+for (int i = 0; i < x.size(); i++) {
+    for (int j = 0; j < y.size(); j++) {
+        std::cout << s[it] << '/n' << s[i] << '/n' << s[j];
+    }
+}
 
 
+//00 01 02
+//10 11 12
+//20 21 22
+//30 31 32
+//40 41 42
+//50 51 52
+//60 61 62
+//70 71 72
 
+//21 32 22 01 21
+//1+1+1+0+2+1+2 = 8
 
-00 01 02
-10 11 12
-20 21 22
-30 31 32
-40 41 42
-50 51 52
-60 61 62
-70 71 72
+//fRnMf
+//7 3
+//bMG  
 
-21 32 22 01 21
-1+1+1+0+2+1+2 = 8
-
-fRnMf
-7 3
-bMG  
-xiZ
-Xfn
-LNR
-dHl
-Ceg
-WIp
+//Xfn
+//LNR
+//dHl
+//Ceg
+//WIp
